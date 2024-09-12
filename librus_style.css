@@ -1,0 +1,120 @@
+/* Gora strony */
+#naglowek {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    color: #CCCCFF;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    clear: both;
+}
+
+#naglowek header {
+    display: inline-block;
+}
+
+/* Prawa strona */
+#prawa {
+    position: fixed;
+    width: 40%;
+    height: 100%;
+    float: right;
+    padding:15px;
+    right: 0;
+}
+
+/* Lewa strona */
+#lewa {
+    position: fixed;
+    width: 60%;
+    height: 100%;
+    float: left;
+    padding: 15px;
+}
+
+/* Stopka */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: #CCCCFF;
+    text-align: center;
+    padding: 15px;
+    clear: both;
+}
+
+/* Wpisywanie */
+input {
+    background-color: #E6E6FA;
+    border: 2px solid #008080;
+    border-style: dashed;
+    cursor: pointer;
+}
+
+
+
+/* Tablica */
+table {
+    border: 4px solid #4B0082;
+    border-spacing: 10px;
+    border-radius: 20px;
+}
+
+/* Całe body */
+body {
+    background-color: #CCCCFF;
+    font-family: 'Trebuchet MS';
+}
+
+/* Przycisk */
+#btn {
+    font-family: 'Trebuchet MS';
+    font-size: 11px;
+    padding: 15px;
+    border: 4px solid #4B0082;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/* Przycisk po aktywacji */
+#btn:active {
+    background-color: #CCCCFF;
+    position: relative;
+    top: 3px;
+    border: 2px solid #4B0082;
+
+}  
+
+/* Przycisk wyloguj */
+#wyloguj {  
+    border-radius: 15px;
+    position: absolute;
+    cursor: pointer;
+    left: 5px;
+    bottom: 140px; /* zwiększona wartość bottom */
+    font-family: 'Trebuchet MS';
+    font-size: 20px;
+    padding: 15px;
+    border: 4px solid #4B0082;
+}
+
+
+
+#komunikaty {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    height: 20vh;
+}
+
+/* Wysrodkowanie */
+#srodek {
+    text-align: center;
+}
+
